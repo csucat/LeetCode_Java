@@ -1,0 +1,7 @@
+
+Psquid:S1172	"-Remove this unused method parameter "target".(΄Τ¬δψÿÿÿÿ8’ª-
+Gsquid:S1481
+")Remove this unused "left" local variable.(τ›΅Ι8“†£ª-
+Wsquid:S1854"9Remove this useless assignment to local variable "right".(οκό¤8“†£ª-
+Hsquid:S1481"*Remove this unused "right" local variable.(οκό¤8“†£ª-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µς¬ÿÿÿÿÿ

@@ -1,0 +1,7 @@
+
+„ squid:ForLoopCounterChangedCheck1"XRefactor the code in order to not assign to this loop counter from within the loop body.(¯ÀÚè
+„ squid:ForLoopCounterChangedCheck3"XRefactor the code in order to not assign to this loop counter from within the loop body.(¯ÀÚè
+„ squid:ForLoopCounterChangedCheck6"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+„ squid:ForLoopCounterChangedCheck8"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.(ÅÆúœ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µò¬ÿÿÿÿÿ
