@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="029894f7-abd4-4ba1-af4b-1d8fba774402" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HOT100/LeetCode226.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOT100/LeetCode461.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOT100/LeetCode538.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/亿联/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/华为/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/华为/one.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/华为/three.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/华为/two.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/多线程/LeetCode1114.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/多线程/第一章多线程技能/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/多线程/第二章对象及变量的并发访问/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/排序/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/排序/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/精选面试题/LeetCode108.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/精选面试题/LeetCode13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/精选面试题/LeetCode171.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/精选面试题/LeetCode191.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/精选面试题/LeetCode202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/精选面试题/LeetCode238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/精选面试题/LeetCode242.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/精选面试题/LeetCode412.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网易/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网易/four.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网易/two.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/贝壳找房/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/贝壳找房/four" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/贝壳找房/one.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/贝壳找房/three.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/贝壳找房/two.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/递归/mid/LeetCode894.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6aa57e26ab775d6d9e70711f980619b61f85c704" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6aa57e26ab775d6d9e70711f980619b61f85c704" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7b59eadfeba2142c165605f66b2e38fd2168df2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7b59eadfeba2142c165605f66b2e38fd2168df2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/双指针/mid/LeetCode209.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/双指针/mid/LeetCode209.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +50,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2029148" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -234,7 +199,7 @@
       <workItem from="1566200101304" duration="83000" />
       <workItem from="1566204284614" duration="840000" />
       <workItem from="1566213971729" duration="5326000" />
-      <workItem from="1566261908952" duration="2146000" />
+      <workItem from="1566261908952" duration="3745000" />
     </task>
     <task id="LOCAL-00001" summary="day522">
       <created>1558532312397</created>
@@ -243,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558532312398</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="多线程学习开始">
+      <created>1566264155138</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566264155138</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -261,6 +233,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -270,10 +267,16 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day522" />
-    <option name="LAST_COMMIT_MESSAGE" value="day522" />
+    <MESSAGE value="多线程学习开始" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程学习开始" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
