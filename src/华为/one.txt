@@ -1,0 +1,44 @@
+ Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        if(input.endsWith("@")){
+            String result = input.substring(0,input.length()-1);
+            System.out.println(result);
+        }else {
+            String[] list = input.split("@");
+            String forward = list[0];
+            String after = list[1];
+            String[] flist = forward.split(","); //a:3,b:5,c:2
+            String[] aflist = after.split(",");  //a:1,b:2
+            Map<String,Integer> fmap = new HashMap<>();
+            Map<String,Integer> amap = new HashMap<>();
+            String[] charList = new String[flist.length];
+            for (int i = 0; i < flist.length; i++) {
+                String f = flist[i]; //a:3
+                String[] l = f.split(":");
+                String key = l[0];
+                Integer value = Integer.valueOf(l[1]);
+                fmap.put(key,value);
+                charList[i] = key;
+            }
+            for (int i = 0; i < aflist.length; i++) {
+                String f = aflist[i]; //a:1
+                String[] l = f.split(":");
+                String key = l[0];
+                Integer value = Integer.valueOf(l[1]);
+                if(fmap.containsKey(key)){
+                    int val = fmap.get(key) - value;
+                    fmap.put(key,val);
+                }
+            }
+            String result = "";
+            for (int i = 0; i < flist.length; i++) {
+                int val = fmap.get(charList[i]);
+                if(val != 0){
+                    result+=charList[i]+":"+val+",";
+                }
+            }
+            if(result.length() > 0){
+                result = result.substring(0,result.length()-1);
+            }
+            System.out.println(result);
+        }

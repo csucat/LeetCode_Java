@@ -1,0 +1,30 @@
+import java.math.BigInteger;
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args) {
+        Scanner sc =  new Scanner(System.in);
+        int n = sc.nextInt();
+        BigInteger[] list = new BigInteger[n];
+        int i = 0;
+        int index = 0;
+        BigInteger a = BigInteger.valueOf(10);
+        BigInteger max = a.pow(16);
+        while (i<n){
+            list[i] = sc.nextBigInteger();
+            i++;
+        }
+        for (int j = 0; j < n ; j++) {
+            if(j != 0){
+                BigInteger c = list[j].subtract(list[j-1]);
+                c = c.abs();
+                if(max.compareTo(c) > 0){
+                    max = c;
+                    index = j;
+                }
+            }
+        }
+
+        System.out.println(list[index-1] + " " + list[index]);
+    }
+}

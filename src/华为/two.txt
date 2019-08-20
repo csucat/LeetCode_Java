@@ -1,0 +1,24 @@
+int M = sc.nextInt();
+        int[] Lables = new int[M];
+        int[] HasChild = new int[M];
+        int[] POUDS = new int[M];
+        for (int i = 0; i < M; i++) {
+            Lables[i] = sc.nextInt();
+        }
+        for (int i = 0; i < M; i++) {
+            HasChild[i] = sc.nextInt();
+        }
+        for (int i = 0; i < M; i++) {
+            POUDS[i] = sc.nextInt();
+        }
+        int N = sc.nextInt();
+        int[] Values = new int[N];
+        for (int i = 0; i < N; i++) {
+            Values[i] = sc.nextInt();
+        }
+        int P = sc.nextInt();
+        int[] key = new int[P];
+        for (int i = 0; i < P; i++) {
+            key[i] = sc.nextInt();
+        }
+

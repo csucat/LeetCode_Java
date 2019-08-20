@@ -1,0 +1,60 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] list = new int[n];
+        for (int i = 0; i < n; i++) {
+            list[i] = sc.nextInt();
+        }
+        if(n == 1){
+            System.out.println(list[0]);
+            return;
+        }
+        if(n == 2){
+            if(list[0] == list[1]){
+                list[0] = list[0]++;
+            }
+            System.out.println(Math.max(list[0],list[1]));
+            return;
+        }
+        boolean flag = true;
+
+        for (int i = 1; i < n-1; i++) {
+            if((list [i] >= list[i -1] && list[i] >= list[i+1])  || (list [i] <= list[i -1] && list[i] <= list[i+1])){
+                flag = false;
+            }
+        }
+        int max = Integer.MAX_VALUE;
+        if(flag){
+            System.out.println(Math.max(list[0],list[n-1]));
+            return;
+        }
+        for (int i = 0; i < n; i++) {
+            int left = 0;
+            if(i > 0){
+                for (int j = 0; j < i; j++) {
+                    if(list[j] >= list[j+1]){
+                        left = j;
+                        break;
+                    }
+                }
+                left = list[left] + i-1-left;
+            }
+            int right = 0;
+            for (int j = n-1; j > i ; j--) {
+                if(list[j] >= list[j-1]){
+                    right = j;
+                    break;
+                }
+            }
+            right = list[right] + (right-i);
+            if(left == right){
+                left ++;
+            }
+            max = Math.min(Math.max(left,right),max);
+        }
+        System.out.println(max);
+    }
+}
